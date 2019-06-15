@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/8c3bb2c7e0.js"></script>
+  <style>
+
+  .jumbotron{
+    margin-top: 50px;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ApplifyHeading{
+    color: white;
+  }
+
+#appSummary{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#footer{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: purple;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.whiteText{
+  color: white;
+}
+
+body{
+background-color: black;
+position: relative;
+}
+</style>
+
+</head>
+<body data-spy = "scroll" data-target="#navbar" data-offset = "250">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id = "navbar">
+    <a class="navbar-brand" href="#">iNgeniuS:Automata</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#jumbotron">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#appSummary">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Get iNgeniuS</a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+        <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="jumbotron" id = "jumbotron">
+    <h1 class="display-4 ApplifyHeading">The tech of the future</h1>
+    <p class="lead ApplifyHeading">Supercharge your life with the next-generation smart-life automation by ArKAI Systems ©</p>
+     <hr class="my-4" style="background-color: white ;width: 50%;" align = "left">
+    <p class="my-4 ApplifyHeading">Used and loved by millions of users across the world. Sign up to learn more</p>
+    <form class="needs-validation" novalidate>
+      <div class="form-row">
+
+        <div class="col-md-4 mb-3">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            </div>
+            <input type="email" class="form-control" id="validationTooltipUsername" placeholder="Email" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please enter a valid Email.
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Sign Up</button>
+    </form>
+  </div>
+
+<div class="container">
+
+  <div class="column" id="appSummary">
+<h1 class="whiteText">Features</h1>
+<p class="lead whiteText">Cutting-edge functionality for the new era of AI</p>
+
+  </div>
+
+</div>
+<div class="container">
+
+<div class="card-deck">
+  <div class="card" style="background-color: black; border: 5px solid purple">
+    <img class="card-img-top" src="carddeck1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title whiteText"><i class="fas fa-car"></i> Remote Vehicle Control</h5>
+      <p class="card-text whiteText">iNgeniuS has been designed for intelligent, precise vehicle management and advanced features such as auto park, auto refill, daily route analysis.</p>
+      <p class="card-text whiteText"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card" style="background-color: black; border: 5px solid purple">
+    <img class="card-img-top" src="carddeck2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title whiteText"><i class="fas fa-eye"></i> Advanced Computer Vision</h5>
+      <p class="card-text whiteText">Leveraging the power of deep neural networks, iNgeniuS is capable of live image segmentation, thanks to the onboard TensorRipper Processing Unit.(TrPU)</p>
+      <p class="card-text whiteText"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card" style="background-color: black; border: 5px solid purple">
+    <img class="card-img-top" src="carddeck3.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title whiteText"><i class="fas fa-chart-pie"></i> Real-Time Activity monitoring</h5>
+      <p class="card-text whiteText">Forget manual data analysis. iNgeniuS performs real-time activity monitoring of your everyday activites and routinely provides optimized routine recommendations.</p>
+      <p class="card-text whiteText"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<div id="footer">
+  <div class="column">
+    <h2 class="whiteText" >Experience iNgeniuS</h2>
+    <p class="lead whiteText">iNgeniuS is free to download. Download now and experience the next level of Artificial Intelligence.</p>
+    <hr style="background-color: black; border: 5px solid black;">
+
+<p> <a href="https://play.google.com/store?hl=en_US"> <img src="google-play-badge.png" alt="" style="width: 25%"> </a> </p>
+  </div>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js" charset="utf-8"></script>
+
+
+</body>
+</html>
